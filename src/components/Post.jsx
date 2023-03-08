@@ -1,7 +1,7 @@
 import styles from './Post.module.css';
 import { Comment } from './Comment';
 
-export function Post() {
+export function Post(props) {
     return (
         <article className={styles.post}>
             <header>
